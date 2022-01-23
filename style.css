@@ -4,6 +4,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+
 h1{
     font-size: 50px;
     text-indent: 2px;
@@ -14,7 +15,7 @@ h1{
 
 h2{
     font-size: 30px;
-
+    margin-top: 25%;   
 }
 
 p{
@@ -27,6 +28,7 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
+   
 }
 
 section{
@@ -46,16 +48,17 @@ section{
 
 
 .box{
-    width: 30%;
+    width: 24%;
     float: left;
-    margin-top: 300px ;
-    margin-left: 300px;
-    margin-bottom: 10px 160px;
+    
+    margin-top: 250px;
+    margin-left: 15%;
 }
 
 .box img{
-    width: 110%;
-    
+  max-width: 150%;
+  flex-direction:column-reverse;
+  margin-right: 50%;
 }
 
 .bg-img {
@@ -71,7 +74,6 @@ section{
     margin-left: 200px;
     padding-top: 70px;
     margin-top: 50px;
- 
 }
 
 section{
@@ -80,13 +82,13 @@ section{
 }
 
 
-.style {
+.style-photo {
     background-image: url(img/latest-work-bg.png);
     background-repeat: no-repeat;
-    height: 50px 50px;
+    height: 872px 1910px;
+    
+    
 }
-
-
 
 h3{
     text-align:center;
@@ -96,39 +98,44 @@ h3{
 }
 
 .img-responsive{
-    height: 250px;
-    float: left;
-    padding-inline-start: 10%;
+    float: center;
+    margin-left: 8%;
+    margin-bottom: 100px;
+    
 }
 
 .lage-i{
     background-image: url(img/footer-bg.png);
     background-repeat: no-repeat;
+   
 }
 
-.title{
+
+
+.title-2{
     text-align: center;
     color: #101318;
     font-size: 40px;
     letter-spacing: 0px;
     font-family:fantasy;
+    margin-top: 10%;
 }
 
-.alin{
+.alin-3{
     text-align: center;
     font-size:20px;
     color: #000002;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.tem{
+.tem-4{
   text-align: center;
   font-size: smaller;
   margin-left: 6%;
   color: #acacac;
 }
 
-.p{
+.text{
     text-align: center;
     
 }
@@ -142,6 +149,7 @@ h3{
 
 .color{
     color:#fffeff;
+    text-align: center;
 }
 
 .content-style{
